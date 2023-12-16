@@ -1,0 +1,14 @@
+python
+matplotlib
+networkx
+pydot
+graphviz
+numpy
+pandas
+statsmodels
+prophet
+seaborn
+plotly
+scikit-learn
+xgboost
+nbformat
