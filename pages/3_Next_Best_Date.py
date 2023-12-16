@@ -15,7 +15,7 @@ def train_xgboost_model(data):
     return model, X_test
 
 def get_features_for_customer(customer_id, test_data):
-    customer_features = test_data[test_data['CustomerID'] == customer_id].copy()  # Make a copy of the subset
+    customer_features = test_data[test_data['CustomerID'] == customer_id]  # Make a copy of the subset
     return customer_features
 
 def classify_customer_segment(customer_features):
