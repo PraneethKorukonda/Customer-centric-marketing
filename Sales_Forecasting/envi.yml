@@ -1,0 +1,15 @@
+name: my_environment  # Replace 'my_environment' with your desired environment name
+channels:
+  - defaults
+dependencies:
+  - python=3.8  # Replace with your preferred Python version
+  - matplotlib
+  - networkx
+  - pydot
+  - graphviz
+  - numpy
+  - pandas
+  - statsmodels
+  - prophet
+  - seaborn
+  - plotly
